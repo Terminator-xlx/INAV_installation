@@ -20,7 +20,9 @@ import CliAutoComplete from './CliAutoComplete';
 import { SITLProcess } from './sitl';
 import settingsCache from './settingsCache';
 import store from './store';
-
+// Подключаем новую вкладку:
+console.log("ВНИМАНИЕ! configurator_main.js успешно работает!");
+import '../tabs/custom_task.js';
 
 window.$ = $;
 
